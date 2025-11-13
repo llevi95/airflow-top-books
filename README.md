@@ -270,14 +270,10 @@ docker exec -it <airflow-worker-container> airflow connections get books_connect
 ### Project Structure
 
 ```
-goodreads-scraper/
+airflow-top-books/
 ├── docker-compose.yaml      # Docker services configuration
-├── .env                     # Environment variables
 ├── dags/
 │   └── app.py              # Main DAG definition
-├── logs/                   # Airflow execution logs
-├── plugins/                # Custom Airflow plugins
-├── config/                 # Airflow configuration
 └── README.md               # This file
 ```
 

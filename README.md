@@ -271,10 +271,13 @@ docker exec -it <airflow-worker-container> airflow connections get books_connect
 
 ```
 airflow-top-books/
-├── docker-compose.yaml      # Docker services configuration
+├── docker-compose.yaml                # Docker services configuration
 ├── dags/
-│   └── app.py              # Main DAG definition
-└── README.md               # This file
+│   └── app.py                         # Main DAG definition
+├── docs/
+│   └── class_diagram.png              # Class diagram
+│   └── sequence_diagram.py            # Sequence diagram
+└── README.md               
 ```
 
 ### Adding Custom Dependencies
